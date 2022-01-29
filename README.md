@@ -1,5 +1,5 @@
 # ffov
-Simple Fallout FOV setter
+Fallout FOV setter
 
 FOV changing features:
  - 1st person FOV

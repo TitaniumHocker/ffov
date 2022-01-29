@@ -133,6 +133,8 @@ class Application:
 
     def on_gamepath_button_click(self):
         self.gamepath_var.set(filedialog.askdirectory())
+        self.setter = None
+
         if not self.gamepath_var.get() or not os.path.isdir(self.gamepath_var.get()):
             messagebox.showerror("Error", "Invalid path")
             self.gamepath_var.set("")

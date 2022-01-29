@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ffov"
+version = "0.1.0"
+description = "Simple Fallout 3/NV/4 fov setter"
+authors = ["Ivan Fedorov <inbox@titaniumhocker.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+
+[tool.poetry.dev-dependencies]
+pyinstaller = "^4.8"
+mypy = "^0.931"
+flake8 = "^4.0.1"
+black = "^21.12b0"
+flake8-black = "^0.2.3"
+isort = "^5.10.1"
+flake8-isort = "^4.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

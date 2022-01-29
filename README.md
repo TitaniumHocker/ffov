@@ -1,5 +1,5 @@
 # ffov
-Simple Fallout FOV setter
+Fallout FOV setter
 
 Currently supported games:
  - Fallout New Vegas

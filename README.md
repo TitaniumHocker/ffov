@@ -1,6 +1,11 @@
 # ffov
 Simple Fallout FOV setter
 
+FOV changing features:
+ - 1st person FOV
+ - PipBoy FOV
+ - Terminal FOV
+
 Currently supported games:
  - Fallout New Vegas
 
